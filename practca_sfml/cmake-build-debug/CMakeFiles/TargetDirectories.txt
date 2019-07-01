@@ -1,3 +1,0 @@
-/home/bhn16/Escritorio/practca_sfml/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/bhn16/Escritorio/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir
-/home/bhn16/Escritorio/practca_sfml/cmake-build-debug/CMakeFiles/edit_cache.dir

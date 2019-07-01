@@ -1,0 +1,3 @@
+C:/Users/Andrés/Documents/GitHub/practca_sfml/out/build/x64-Debug/CMakeFiles/practca_sfml.dir
+C:/Users/Andrés/Documents/GitHub/practca_sfml/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Andrés/Documents/GitHub/practca_sfml/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
