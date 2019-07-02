@@ -1,68 +1,40 @@
 //
 // Created by bhn16 on 15/06/19.
 //
-
+#include <vector>
+#include <utility>
 #include "Casilla.h"
-#include <iostream>
 using namespace std;
-
-class Casilla {
-protected:
-	int x;
-	int y;
-	bool disponible;
-	char color;
-public:
-	Casilla(int x, int y, char color): x(x), y(y), color(color) { disponible = true; }
-	virtual void mostrar() {
-		cout << "Posicion: x:" << x << " y: " << y << endl;
-	}
-};
-
-class CasillaCasa : public Casilla
+Casilla::Casilla(){};
+Casilla::Casilla(float x, float y)
 {
-public:
-	CasillaCasa(int x, int y, int color) : Casilla(x, y) {}
-	void mostrar() {
-		cout << "Posicion: x:" << x << " y: " << y << endl;
-	}
-};
-
-class CasillaInicio : public Casilla
+    posicion_coordenadas = make_pair(x,y);
+}
+pair<float,float> Casilla::get_coord()
 {
-public:
-	CasillaInicio(int x, int y, char color) : Casilla(x, y, color) {}
-	void mostrar()
-	{
-		cout << "Posicion: x:" << x << " y: " << y << endl;
-	}
-};
-
-class CasillaRecorrido : public Casilla
+    return posicion_coordenadas;
+}
+CasillaRecorrido::CasillaRecorrido(float x, float y) : Casilla(x,y)
 {
-public:
-	CasillaRecorrido(int x, int y, char color) : Casilla(x, y, color) {}
-	void mostrar()
-	{
-		cout << "Posicion: x:" << x << " y: " << y << endl;
-	}
-};
-
-class CasillaZonaSegura : public Casilla
+    this->disponible = true;
+}
+CasillaInicio::CasillaInicio(float x, float y, char color) : Casilla(x,y)
 {
-public:
-	CasillaZonaSegura(int x, int y, char color) : Casilla(x, y, color) {}
-	void mostrar()
-	{
-		cout << "Posicion: x:" << x << " y: " << y << endl;
-	}
-};
-
-class CasillaDestinoFinal : public Casilla {
-public:
-	CasillaDestinoFinal(int x, int y, char color) : Casilla(x, y, color) {}
-	void mostrar()
-	{
-		cout << "Posicion: x:" << x << " y: " << y << endl;
-	}
-};
+    this->color= color;
+    this->disponible = true;
+}
+CasillaCasa::CasillaCasa(float x,float y, char color) : Casilla(x,y)
+{
+    this->color = color;
+    this->disponible = false;
+}
+CasillaZonaSegura::CasillaZonaSegura(float x, float y, char color): Casilla(x,y)
+{
+    this->disponible = true;
+    this->color = color;
+}
+CasillaDestinoFinal::CasillaDestinoFinal(float x, float y, char color):Casilla(x,y)
+{
+    this->disponible = true;
+    this->color = color;
+}
