@@ -1,14 +1,15 @@
 //
-// Created by bhn16 on 15/06/19.
+// Created by UTECstuff on 3/07/2019.
 //
 
 #ifndef PRACTCA_SFML_TABLERO_H
 #define PRACTCA_SFML_TABLERO_H
 
-
-class Tablero {
-
+#include "Nodo.h"
+#include "Casilla.h"
+class Tablero{
+public:
+    Tablero();
 };
-
 
 #endif //PRACTCA_SFML_TABLERO_H

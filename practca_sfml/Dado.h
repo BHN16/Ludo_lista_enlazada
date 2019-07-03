@@ -7,7 +7,9 @@
 
 
 class Dado {
-
+public:
+    Dado(){};
+    unsigned int lanzarDado();
 };
 
 

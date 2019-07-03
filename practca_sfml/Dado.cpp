@@ -3,3 +3,5 @@
 //
 
 #include "Dado.h"
+
+unsigned int Dado::lanzarDado() { return 2;}
