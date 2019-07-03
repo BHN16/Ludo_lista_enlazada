@@ -1,3 +1,3 @@
-C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir
-C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir
+C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/rebuild_cache.dir

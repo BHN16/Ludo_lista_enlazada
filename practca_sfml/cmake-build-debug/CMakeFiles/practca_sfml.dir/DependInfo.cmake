@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Casilla.cpp" "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/Casilla.cpp.obj"
-  "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Dado.cpp" "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/Dado.cpp.obj"
-  "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Ficha.cpp" "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/Ficha.cpp.obj"
-  "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Juego.cpp" "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/Juego.cpp.obj"
-  "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Nodo.cpp" "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/Nodo.cpp.obj"
-  "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/main.cpp" "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/main.cpp.obj"
-  "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/tablero.cpp" "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/tablero.cpp.obj"
+  "C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/Casilla.cpp" "C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/Casilla.cpp.obj"
+  "C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/Dado.cpp" "C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/Dado.cpp.obj"
+  "C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/Ficha.cpp" "C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/Ficha.cpp.obj"
+  "C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/Juego.cpp" "C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/Juego.cpp.obj"
+  "C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/Nodo.cpp" "C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/Nodo.cpp.obj"
+  "C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/Tablero.cpp" "C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/Tablero.cpp.obj"
+  "C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/main.cpp" "C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

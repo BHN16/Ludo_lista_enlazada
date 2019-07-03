@@ -8,140 +8,140 @@
 		<Option virtualFolders="CMake Files\;CMake Files\SFML-2.5.1\;CMake Files\SFML-2.5.1\lib\;CMake Files\SFML-2.5.1\lib\cmake\;CMake Files\SFML-2.5.1\lib\cmake\SFML\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug"/>
+				<Option working_dir="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="practca_sfml">
-				<Option output="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/practca_sfml.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug"/>
+				<Option output="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/practca_sfml.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/SFML_INCLUDE_DIR"/>
-					<Add directory="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/SFML-2.5.1/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/SFML_INCLUDE_DIR"/>
+					<Add directory="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/SFML-2.5.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.3.0-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.3.0-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.3.0-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.3.0-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.3.0-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.3.0-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 practca_sfml"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 practca_sfml"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="practca_sfml/fast">
-				<Option output="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/practca_sfml.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug"/>
+				<Option output="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/practca_sfml.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/SFML_INCLUDE_DIR"/>
-					<Add directory="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/SFML-2.5.1/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/SFML_INCLUDE_DIR"/>
+					<Add directory="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/SFML-2.5.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.3.0-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.3.0-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.3.0-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.3.0-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.3.0-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.3.0-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 practca_sfml/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 practca_sfml/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug"/>
+				<Option working_dir="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug"/>
+				<Option working_dir="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Casilla.cpp">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/Casilla.cpp">
 			<Option target="practca_sfml"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Casilla.h">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/Casilla.h">
 			<Option target="practca_sfml"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Dado.cpp">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/Dado.cpp">
 			<Option target="practca_sfml"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Dado.h">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/Dado.h">
 			<Option target="practca_sfml"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Ficha.cpp">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/Ficha.cpp">
 			<Option target="practca_sfml"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Ficha.h">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/Ficha.h">
 			<Option target="practca_sfml"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Juego.cpp">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/Juego.cpp">
 			<Option target="practca_sfml"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Juego.h">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/Juego.h">
 			<Option target="practca_sfml"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Nodo.cpp">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/Nodo.cpp">
 			<Option target="practca_sfml"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Nodo.h">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/Nodo.h">
 			<Option target="practca_sfml"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/main.cpp">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/Tablero.cpp">
 			<Option target="practca_sfml"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/tablero.cpp">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/Tablero.h">
 			<Option target="practca_sfml"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/tablero.h">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/main.cpp">
 			<Option target="practca_sfml"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/CMakeLists.txt">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake">
 			<Option virtualFolder="CMake Files\SFML-2.5.1\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
 			<Option virtualFolder="CMake Files\SFML-2.5.1\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\SFML-2.5.1\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-debug.cmake">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-debug.cmake">
 			<Option virtualFolder="CMake Files\SFML-2.5.1\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
 			<Option virtualFolder="CMake Files\SFML-2.5.1\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets.cmake">
+		<Unit filename="C:/Users/massi/OneDrive/Documents/_POO2/_Ludo/Ludo/Ludo_lista_enlazada/practca_sfml/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets.cmake">
 			<Option virtualFolder="CMake Files\SFML-2.5.1\lib\cmake\SFML\"/>
 		</Unit>
 	</Project>

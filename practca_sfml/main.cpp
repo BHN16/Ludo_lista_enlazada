@@ -29,6 +29,7 @@ Sprite dado[6];
 int main()
 {
 
+    
     int v = 0, am = 0, r = 0, az = 0;//contadores para dar coordenadas iniciales
     int n = 5;
 

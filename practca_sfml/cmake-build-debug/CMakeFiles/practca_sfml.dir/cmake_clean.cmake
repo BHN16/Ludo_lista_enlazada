@@ -5,7 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/practca_sfml.dir/Nodo.cpp.obj"
   "CMakeFiles/practca_sfml.dir/Casilla.cpp.obj"
   "CMakeFiles/practca_sfml.dir/Ficha.cpp.obj"
-  "CMakeFiles/practca_sfml.dir/tablero.cpp.obj"
+  "CMakeFiles/practca_sfml.dir/Tablero.cpp.obj"
   "practca_sfml.pdb"
   "practca_sfml.exe"
   "practca_sfml.exe.manifest"
