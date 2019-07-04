@@ -2,17 +2,19 @@
 #define PRACTCA_SFML_FICHA_H
 
 #include "Nodo.h"
-#include "Casilla.h"
 #include "Dado.h"
+
 class Ficha{
 private:
     char color;
-    Nodo<Casilla>* posicion;
+    Nodo* posicion;
 public:
-    Ficha(char color, Nodo<Casilla> *posicion);
-    void setPoscicion(Nodo<Casilla>* NN);
-    Nodo<Casilla>* getPosicion();
-    Nodo<Casilla>* calcularRecorrido();
+    Ficha();
+    Ficha(char color, Nodo* posicion);
+    void setPoscicion(Nodo* NN);
+    Nodo* getPosicion();
+    Nodo* calcularRecorrido();
+    ~Ficha();
 };
 
 #endif //PRACTCA_SFML_FICHA_H

@@ -1,34 +1,34 @@
-//
-// Created by bhn16 on 15/06/19.
-//
+#ifndef PRACTCA_SFML_NODO_H
+#define PRACTCA_SFML_NODO_H
 
-#ifndef PRACTCA_SFML_TABLERO_H
-#define PRACTCA_SFML_TABLERO_H
+#include <iostream>
+#include "Casilla.h"
+#include <functional>
 
-template <class T>
-class Nodo {
+class Nodo{
 private:
-    T* Casilla;
-
-public:
+    Casilla* casilla;
     Nodo* siguienteOrdinario;
-    Nodo(Nodo<T>* next, T* task);
-    void setSO(Nodo<T>* SO);
-    Nodo<T>* getSO();
-    T* getCasilla();
-    void setSE(Nodo<T>* SO);
-    Nodo<T>* getSE();
-};
-
-template<class T>
-class NodoE : public Nodo<T> {
-private:
-
 public:
-    NodoE* siguienteExtra;
-    NodoE(Nodo<T>* next, T* task, NodoE* SE);
-    void setSE(NodoE* NSE);
-    Nodo<T>* getSE();
+    Nodo();
+    Nodo(Nodo* next, Casilla* task);
+    void setSO(Nodo* SO);
+    virtual Nodo* getSiguienteNodo();
+    Casilla* getCasilla();
+    void setSE(Nodo* SO);
+    Nodo* getSE();
+    ~Nodo();
 };
 
-#endif //PRACTCA_SFML_TABLERO_H
+
+class NodoE : public Nodo {
+private:
+    NodoE* siguienteExtra;
+    function<bool(char)> condicion;
+public:
+    NodoE(Nodo* next, Casilla* task, NodoE* SE, function<bool(char)> condition);
+    void setSE(NodoE* NSE);
+    Nodo* getSiguienteNodo(char c);
+    ~NodoE();
+};
+#endif //PRACTCA_SFML_NODO_H

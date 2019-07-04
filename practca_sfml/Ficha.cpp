@@ -1,24 +1,25 @@
 #include "Ficha.h"
 
-Ficha::Ficha(char color, Nodo<Casilla>* posicion) : color(color), posicion(posicion) {}
+Ficha::Ficha(char color, Nodo* posicion) : color(color), posicion(posicion) {}
 
-void Ficha::setPoscicion(Nodo<Casilla>* NN) {
+void Ficha::setPoscicion(Nodo* NN) {
     posicion = NN;
 }
 
-Nodo<Casilla>* Ficha::getPosicion(){ return posicion;}
+Nodo* Ficha::getPosicion(){ return posicion;}
 
-Nodo<Casilla>* Ficha::calcularRecorrido() {
-    posicion->setSO(nullptr);
+Nodo* Ficha::calcularRecorrido() {
     auto dado = new Dado();
-    Nodo<Casilla>* punteroAuxiliar = nullptr;
+    Nodo* punteroAuxiliar = nullptr;
     int mov = dado->lanzarDado();
-    punteroAuxiliar = posicion->Nodo::siguienteOrdinario;
+    punteroAuxiliar = posicion->getSiguienteNodo();
     for(int i = 1; i < mov; i++){
-        punteroAuxiliar = punteroAuxiliar->Nodo::siguienteOrdinario;
+        punteroAuxiliar = punteroAuxiliar->getSiguienteNodo();
     }
     /*if(punteroAuxiliar->getCasilla()->getDisponible()){
         Ficha::setPoscicion(punteroAuxiliar);
     }*/
     return punteroAuxiliar;
 }
+
+Ficha::~Ficha() {}

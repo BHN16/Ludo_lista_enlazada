@@ -1,8 +1,5 @@
-//
-// Created by bhn16 on 14/06/19.
-//
-#include <string>
 #include "Juego.h"
+
 Juego::Juego(int resolucion_x, int resolucion_y, std::string nombre)
 {
     ventana1 = new RenderWindow(VideoMode(resolucion_x,resolucion_y),nombre);
@@ -49,3 +46,26 @@ void Juego::Game_loop()
         Dibujar_ventana();
     }
 }
+
+void Juego::run() {
+    auto tablero = new Tablero();
+    auto FV1 = new Ficha('V', nullptr);
+    auto FV2 = new Ficha('V', nullptr);
+    auto FV3 = new Ficha('V', nullptr);
+    auto FV4 = new Ficha('V', nullptr);
+    auto FR1 = new Ficha('R', nullptr);
+    auto FR2 = new Ficha('R', nullptr);
+    auto FR3 = new Ficha('R', nullptr);
+    auto FR4 = new Ficha('R', nullptr);
+    auto FA1 = new Ficha('A', nullptr);
+    auto FA2 = new Ficha('A', nullptr);
+    auto FA3 = new Ficha('A', nullptr);
+    auto FA4 = new Ficha('A', nullptr);
+    auto FZ1 = new Ficha('Z', nullptr);
+    auto FZ2 = new Ficha('Z', nullptr);
+    auto FZ3 = new Ficha('Z', nullptr);
+    auto FZ4 = new Ficha('Z', nullptr);
+    tablero->construirTablero(FV1,FV2,FV3,FV4,FR1,FR2,FR3,FR4,FA1,FA2,FA3,FA4,FZ1,FZ2,FZ3,FZ4);
+}
+
+Juego::~Juego() {};
