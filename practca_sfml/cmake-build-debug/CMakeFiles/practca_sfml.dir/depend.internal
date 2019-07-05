@@ -9,7 +9,6 @@ CMakeFiles/practca_sfml.dir/Dado.cpp.obj
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Dado.h
 CMakeFiles/practca_sfml.dir/Ficha.cpp.obj
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Casilla.h
- C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Dado.h
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Ficha.cpp
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Ficha.h
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Nodo.h
@@ -89,16 +88,23 @@ CMakeFiles/practca_sfml.dir/Juego.cpp.obj
  ../SFML-2.5.1/include/SFML/Window/WindowHandle.hpp
  ../SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Casilla.h
- C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Dado.h
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Ficha.h
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Juego.cpp
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Juego.h
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Nodo.h
+ C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Recorrido.h
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/tablero.h
 CMakeFiles/practca_sfml.dir/Nodo.cpp.obj
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Casilla.h
+ C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Ficha.h
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Nodo.cpp
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Nodo.h
+CMakeFiles/practca_sfml.dir/Recorrido.cpp.obj
+ C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Casilla.h
+ C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Ficha.h
+ C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Nodo.h
+ C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Recorrido.cpp
+ C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Recorrido.h
 CMakeFiles/practca_sfml.dir/main.cpp.obj
  ../SFML-2.5.1/include/SFML/Config.hpp
  ../SFML-2.5.1/include/SFML/Graphics.hpp
@@ -175,15 +181,14 @@ CMakeFiles/practca_sfml.dir/main.cpp.obj
  ../SFML-2.5.1/include/SFML/Window/WindowHandle.hpp
  ../SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Casilla.h
- C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Dado.h
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Ficha.h
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Juego.h
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Nodo.h
+ C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Recorrido.h
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/main.cpp
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/tablero.h
 CMakeFiles/practca_sfml.dir/tablero.cpp.obj
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Casilla.h
- C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Dado.h
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Ficha.h
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Nodo.h
  C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/tablero.cpp

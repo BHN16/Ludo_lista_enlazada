@@ -8,7 +8,6 @@ CMakeFiles/practca_sfml.dir/Dado.cpp.obj: ../Dado.cpp
 CMakeFiles/practca_sfml.dir/Dado.cpp.obj: ../Dado.h
 
 CMakeFiles/practca_sfml.dir/Ficha.cpp.obj: ../Casilla.h
-CMakeFiles/practca_sfml.dir/Ficha.cpp.obj: ../Dado.h
 CMakeFiles/practca_sfml.dir/Ficha.cpp.obj: ../Ficha.cpp
 CMakeFiles/practca_sfml.dir/Ficha.cpp.obj: ../Ficha.h
 CMakeFiles/practca_sfml.dir/Ficha.cpp.obj: ../Nodo.h
@@ -88,16 +87,23 @@ CMakeFiles/practca_sfml.dir/Juego.cpp.obj: ../SFML-2.5.1/include/SFML/Window/Win
 CMakeFiles/practca_sfml.dir/Juego.cpp.obj: ../SFML-2.5.1/include/SFML/Window/WindowHandle.hpp
 CMakeFiles/practca_sfml.dir/Juego.cpp.obj: ../SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/practca_sfml.dir/Juego.cpp.obj: ../Casilla.h
-CMakeFiles/practca_sfml.dir/Juego.cpp.obj: ../Dado.h
 CMakeFiles/practca_sfml.dir/Juego.cpp.obj: ../Ficha.h
 CMakeFiles/practca_sfml.dir/Juego.cpp.obj: ../Juego.cpp
 CMakeFiles/practca_sfml.dir/Juego.cpp.obj: ../Juego.h
 CMakeFiles/practca_sfml.dir/Juego.cpp.obj: ../Nodo.h
+CMakeFiles/practca_sfml.dir/Juego.cpp.obj: ../Recorrido.h
 CMakeFiles/practca_sfml.dir/Juego.cpp.obj: ../tablero.h
 
 CMakeFiles/practca_sfml.dir/Nodo.cpp.obj: ../Casilla.h
+CMakeFiles/practca_sfml.dir/Nodo.cpp.obj: ../Ficha.h
 CMakeFiles/practca_sfml.dir/Nodo.cpp.obj: ../Nodo.cpp
 CMakeFiles/practca_sfml.dir/Nodo.cpp.obj: ../Nodo.h
+
+CMakeFiles/practca_sfml.dir/Recorrido.cpp.obj: ../Casilla.h
+CMakeFiles/practca_sfml.dir/Recorrido.cpp.obj: ../Ficha.h
+CMakeFiles/practca_sfml.dir/Recorrido.cpp.obj: ../Nodo.h
+CMakeFiles/practca_sfml.dir/Recorrido.cpp.obj: ../Recorrido.cpp
+CMakeFiles/practca_sfml.dir/Recorrido.cpp.obj: ../Recorrido.h
 
 CMakeFiles/practca_sfml.dir/main.cpp.obj: ../SFML-2.5.1/include/SFML/Config.hpp
 CMakeFiles/practca_sfml.dir/main.cpp.obj: ../SFML-2.5.1/include/SFML/Graphics.hpp
@@ -174,15 +180,14 @@ CMakeFiles/practca_sfml.dir/main.cpp.obj: ../SFML-2.5.1/include/SFML/Window/Wind
 CMakeFiles/practca_sfml.dir/main.cpp.obj: ../SFML-2.5.1/include/SFML/Window/WindowHandle.hpp
 CMakeFiles/practca_sfml.dir/main.cpp.obj: ../SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/practca_sfml.dir/main.cpp.obj: ../Casilla.h
-CMakeFiles/practca_sfml.dir/main.cpp.obj: ../Dado.h
 CMakeFiles/practca_sfml.dir/main.cpp.obj: ../Ficha.h
 CMakeFiles/practca_sfml.dir/main.cpp.obj: ../Juego.h
 CMakeFiles/practca_sfml.dir/main.cpp.obj: ../Nodo.h
+CMakeFiles/practca_sfml.dir/main.cpp.obj: ../Recorrido.h
 CMakeFiles/practca_sfml.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/practca_sfml.dir/main.cpp.obj: ../tablero.h
 
 CMakeFiles/practca_sfml.dir/tablero.cpp.obj: ../Casilla.h
-CMakeFiles/practca_sfml.dir/tablero.cpp.obj: ../Dado.h
 CMakeFiles/practca_sfml.dir/tablero.cpp.obj: ../Ficha.h
 CMakeFiles/practca_sfml.dir/tablero.cpp.obj: ../Nodo.h
 CMakeFiles/practca_sfml.dir/tablero.cpp.obj: ../tablero.cpp

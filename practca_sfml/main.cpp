@@ -4,7 +4,8 @@
 #include "tablero.h"
 #include "Nodo.h"
 #include "Juego.h"
-using namespace sf;
+#include "Recorrido.h"
+/*using namespace sf;
 float size_y = 46.6;
 float size_x = 46.6;
 int board[15][15] = {
@@ -28,22 +29,13 @@ Sprite fichas_verdes[4];
 Sprite fichas_amarillas[4];
 Sprite fichas_rojas[4];
 Sprite fichas_azules[4];
-Sprite dado[6];
+Sprite dado[6];*/
 int main()
 {
 
-    /*auto tablero = new Tablero;
-    auto FV1 = new Ficha('V',nullptr);
-    auto FV2 = new Ficha('V',nullptr);
-    tablero->construirTablero(FV1, FV2);
-    FV1->setPoscicion(FV1->calcularRecorrido());
-    if(FV1->getPosicion()==FV2->getPosicion()){
-        cout<<"GAAAAAAAAAAAAAAAA";
-    }
-    delete FV1;
-    delete FV2;
-    delete tablero;*/
-    int v = 0, am = 0, r = 0, az = 0;//contadores para dar coordenadas iniciales
+    auto juego = new Juego();
+    juego->run();
+    /*int v = 0, am = 0, r = 0, az = 0;//contadores para dar coordenadas iniciales
     int n = 5;
 
     RenderWindow window(VideoMode(700,700),"The ludo");
@@ -148,6 +140,6 @@ int main()
         }
         window.draw(dado[n-1]);
         window.display();
-    }
+    }*/
     return 0;
 }

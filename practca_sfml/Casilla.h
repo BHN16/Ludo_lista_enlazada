@@ -15,12 +15,14 @@ public:
 	Casilla();
 	Casilla(float x, float y, char color);
 	pair<float,float> get_coord();
+    char getColor();
+    bool getDisponible();
+    void disponibleSwitch();
 	~Casilla();
 };
 
 class CasillaCasa : public Casilla{
 private:
-	char color;
 public:
 	CasillaCasa(float x, float y, char color);
 	~CasillaCasa();

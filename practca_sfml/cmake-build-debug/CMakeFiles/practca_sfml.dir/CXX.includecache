@@ -684,8 +684,6 @@ vector
 string
 -
 
-C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Dado.h
-
 C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Ficha.cpp
 Ficha.h
 C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Ficha.h
@@ -693,8 +691,6 @@ C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Ficha.h
 C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Ficha.h
 Nodo.h
 C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Nodo.h
-Dado.h
-C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Dado.h
 
 C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Juego.cpp
 Juego.h
@@ -705,6 +701,8 @@ SFML/Graphics.hpp
 -
 tablero.h
 C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/tablero.h
+Recorrido.h
+C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Recorrido.h
 string
 -
 
@@ -717,8 +715,18 @@ iostream
 -
 Casilla.h
 C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Casilla.h
+Ficha.h
+C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Ficha.h
 functional
 -
+
+C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Recorrido.cpp
+Recorrido.h
+C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Recorrido.h
+
+C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Recorrido.h
+Ficha.h
+C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Ficha.h
 
 C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/main.cpp
 iostream
@@ -733,6 +741,8 @@ Nodo.h
 C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Nodo.h
 Juego.h
 C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Juego.h
+Recorrido.h
+C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Recorrido.h
 
 C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/tablero.cpp
 tablero.h

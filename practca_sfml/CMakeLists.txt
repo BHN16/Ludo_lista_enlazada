@@ -3,7 +3,7 @@ project(practca_sfml)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(practca_sfml main.cpp Juego.cpp Juego.h Dado.cpp Dado.h Nodo.cpp Nodo.h Casilla.cpp Casilla.h Ficha.cpp Ficha.h tablero.cpp tablero.h)
+add_executable(practca_sfml main.cpp Juego.cpp Juego.h Dado.cpp Dado.h Nodo.cpp Nodo.h Casilla.cpp Casilla.h Ficha.cpp Ficha.h tablero.cpp tablero.h Recorrido.cpp Recorrido.h)
 
 set(SFML_INCLUDE_DIR "SFML-2.5.1/include")
 set(SFML_LIBRARY_DIR "SFML-2.5.1/lib")

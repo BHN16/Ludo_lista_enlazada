@@ -114,6 +114,12 @@
 		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Nodo.h">
 			<Option target="practca_sfml"/>
 		</Unit>
+		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Recorrido.cpp">
+			<Option target="practca_sfml"/>
+		</Unit>
+		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Recorrido.h">
+			<Option target="practca_sfml"/>
+		</Unit>
 		<Unit filename="C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/main.cpp">
 			<Option target="practca_sfml"/>
 		</Unit>

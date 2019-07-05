@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Ficha.cpp" "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/Ficha.cpp.obj"
   "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Juego.cpp" "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/Juego.cpp.obj"
   "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Nodo.cpp" "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/Nodo.cpp.obj"
+  "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/Recorrido.cpp" "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/Recorrido.cpp.obj"
   "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/main.cpp" "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/main.cpp.obj"
   "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/tablero.cpp" "C:/Users/alost/Documents/GitHub/Ludo_lista_enlazada/practca_sfml/cmake-build-debug/CMakeFiles/practca_sfml.dir/tablero.cpp.obj"
   )

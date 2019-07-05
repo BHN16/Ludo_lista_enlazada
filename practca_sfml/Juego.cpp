@@ -1,5 +1,7 @@
 #include "Juego.h"
 
+Juego::Juego() {}
+
 Juego::Juego(int resolucion_x, int resolucion_y, std::string nombre)
 {
     ventana1 = new RenderWindow(VideoMode(resolucion_x,resolucion_y),nombre);
@@ -66,6 +68,13 @@ void Juego::run() {
     auto FZ3 = new Ficha('Z', nullptr);
     auto FZ4 = new Ficha('Z', nullptr);
     tablero->construirTablero(FV1,FV2,FV3,FV4,FR1,FR2,FR3,FR4,FA1,FA2,FA3,FA4,FZ1,FZ2,FZ3,FZ4);
+    auto rec = new Recorrido();
+    rec->mover(FA1,2);
+    rec->mover(FV1,15);
+    if(FV1->getPosicion()==FA2->getPosicion()){
+        cout<<"GAAAAA";
+    }
+    delete rec;
 }
 
-Juego::~Juego() {};
+Juego::~Juego() {}

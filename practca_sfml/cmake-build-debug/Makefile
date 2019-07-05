@@ -257,6 +257,33 @@ Nodo.cpp.s:
 	$(MAKE) -f CMakeFiles\practca_sfml.dir\build.make CMakeFiles/practca_sfml.dir/Nodo.cpp.s
 .PHONY : Nodo.cpp.s
 
+Recorrido.obj: Recorrido.cpp.obj
+
+.PHONY : Recorrido.obj
+
+# target to build an object file
+Recorrido.cpp.obj:
+	$(MAKE) -f CMakeFiles\practca_sfml.dir\build.make CMakeFiles/practca_sfml.dir/Recorrido.cpp.obj
+.PHONY : Recorrido.cpp.obj
+
+Recorrido.i: Recorrido.cpp.i
+
+.PHONY : Recorrido.i
+
+# target to preprocess a source file
+Recorrido.cpp.i:
+	$(MAKE) -f CMakeFiles\practca_sfml.dir\build.make CMakeFiles/practca_sfml.dir/Recorrido.cpp.i
+.PHONY : Recorrido.cpp.i
+
+Recorrido.s: Recorrido.cpp.s
+
+.PHONY : Recorrido.s
+
+# target to generate assembly for a file
+Recorrido.cpp.s:
+	$(MAKE) -f CMakeFiles\practca_sfml.dir\build.make CMakeFiles/practca_sfml.dir/Recorrido.cpp.s
+.PHONY : Recorrido.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -335,6 +362,9 @@ help:
 	@echo ... Nodo.obj
 	@echo ... Nodo.i
 	@echo ... Nodo.s
+	@echo ... Recorrido.obj
+	@echo ... Recorrido.i
+	@echo ... Recorrido.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

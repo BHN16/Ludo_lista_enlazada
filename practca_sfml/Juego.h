@@ -3,6 +3,7 @@
 #define PRACTCA_SFML_JUEGO_H
 #include <SFML/Graphics.hpp>
 #include "tablero.h"
+#include "Recorrido.h"
 #include <string>
 //deaclarar como variable gloabal el tamaño de la pantalla dividido entre el numero de casillas que quiero
 using namespace sf;

@@ -2,14 +2,17 @@
 
 Nodo::Nodo() {}
 
-Nodo::Nodo(Nodo *next, Casilla *task) : siguienteOrdinario(next), casilla(task){}
+Nodo::Nodo(Nodo *next, Casilla *task) : siguienteOrdinario(next), casilla(task){
+    condicion = [](char c){ return false;};
+    f = nullptr;
+}
 
     void Nodo::setSO(Nodo* SO) {
         siguienteOrdinario = SO;
     }
 
 
-    Nodo* Nodo::getSiguienteNodo(){
+    Nodo* Nodo::getSiguienteNodo(char c){
     return siguienteOrdinario;
     }
 
@@ -18,6 +21,9 @@ Nodo::Nodo(Nodo *next, Casilla *task) : siguienteOrdinario(next), casilla(task){
         return casilla;
     }
 
+Ficha* Nodo::getF() { return f;}
+
+void Nodo::setF(Ficha* F){f = F;}
 
 void Nodo::setSE(Nodo* SO) {
     siguienteOrdinario = SO;
@@ -41,7 +47,7 @@ void NodoE::setSE(NodoE* NSE) {
         if(condicion(c)){
             return siguienteExtra;
         } else {
-            return Nodo::getSiguienteNodo();
+            return Nodo::getSiguienteNodo(c);
         }
     }
 
