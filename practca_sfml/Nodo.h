@@ -1,13 +1,13 @@
+//
+// Created by bhn16 on 06/07/19.
+//
+
 #ifndef PRACTCA_SFML_NODO_H
 #define PRACTCA_SFML_NODO_H
-
-#include <iostream>
 #include "Casilla.h"
 #include "Ficha.h"
 #include <functional>
-
 class Ficha;
-
 class Nodo{
 private:
     Casilla* casilla;
@@ -38,4 +38,6 @@ public:
     Nodo* getSiguienteNodo(char c) override;
     ~NodoE();
 };
+
+
 #endif //PRACTCA_SFML_NODO_H

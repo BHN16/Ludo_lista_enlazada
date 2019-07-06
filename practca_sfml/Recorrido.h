@@ -1,10 +1,11 @@
-
 #ifndef PRACTCA_SFML_RECORRIDO_H
 #define PRACTCA_SFML_RECORRIDO_H
 
 #include "Ficha.h"
 
 class Recorrido{
+private:
+    bool retroceso;
 public:
     Recorrido();
     Nodo* calcularRecorrido(Ficha* ficha, int mov);
