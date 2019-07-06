@@ -1,29 +1,30 @@
-#pragma once
 #ifndef PRACTCA_SFML_JUEGO_H
 #define PRACTCA_SFML_JUEGO_H
 #include <SFML/Graphics.hpp>
-#include "tablero.h"
+#include "Tablero.h"
+#include "Dado.h"
+#include "Jugador.h"
 #include "Recorrido.h"
 #include <string>
-//deaclarar como variable gloabal el tamaño de la pantalla dividido entre el numero de casillas que quiero
+#include <vector>
+//declarar como variable gloabal el tamaño de la pantalla dividido entre el numero de casillas que quiero
 using namespace sf;
 class Juego {
 private:
-RenderWindow* ventana1;
-int fps;
+    RenderWindow* ventana1;
+    Tablero* tablero;
+    int fps;
+    Dado* dado;
+    std::vector<Jugador>* j;
+    bool GANAR;
 //textura: imagen base . sprite: textura modificada
-Texture* textura1;
-Texture* textura2;
-Texture* textura3;
-Sprite* sprite1;
-Sprite* sprite2;
-Sprite* sprite3;
 public:
-    Juego();
-    Juego(int resolucion_x,int resolucion_y,std::string nombre);
-    void run();
+    Juego(std::string n, int resx, int resy);
     void Dibujar_ventana();
+    void Jugar();
+    void Ganar();
     void Game_loop();
+    void update();
     ~Juego();
 };
 

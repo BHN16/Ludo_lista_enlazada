@@ -1,45 +1,42 @@
+#include <vector>
+#include <utility>
 #include "Casilla.h"
 using namespace std;
-Casilla::Casilla(){}
-Casilla::Casilla(float x, float y, char color)
+Casilla::Casilla(){};
+Casilla::Casilla(float x, float y)
 {
-    disponible = true;
     posicion_coordenadas = make_pair(x,y);
 }
 pair<float,float> Casilla::get_coord()
 {
     return posicion_coordenadas;
 }
-char Casilla::getColor() { return color;}
-bool Casilla::getDisponible(){return disponible;}
+bool Casilla::getDisponible()
+{
+    return disponible;
+}
 void Casilla::disponibleSwitch(){disponible = !disponible;}
-Casilla::~Casilla(){}
-CasillaRecorrido::CasillaRecorrido(float x, float y, char color) : Casilla(x,y,color)
+CasillaRecorrido::CasillaRecorrido(float x, float y) : Casilla(x,y)
 {
     this->disponible = true;
 }
-CasillaRecorrido::~CasillaRecorrido(){}
-CasillaInicio::CasillaInicio(float x, float y, char color) : Casilla(x,y,color)
+CasillaInicio::CasillaInicio(float x, float y, char color) : Casilla(x,y)
 {
     this->color= color;
     this->disponible = true;
 }
-CasillaInicio::~CasillaInicio(){}
-CasillaCasa::CasillaCasa(float x,float y, char color) : Casilla(x,y, color)
+CasillaCasa::CasillaCasa(float x,float y, char color) : Casilla(x,y)
 {
     this->color = color;
     this->disponible = false;
 }
-CasillaCasa::~CasillaCasa(){}
-CasillaZonaSegura::CasillaZonaSegura(float x, float y, char color): Casilla(x,y,color)
+CasillaZonaSegura::CasillaZonaSegura(float x, float y, char color): Casilla(x,y)
 {
     this->disponible = true;
     this->color = color;
 }
-CasillaZonaSegura::~CasillaZonaSegura() {}
-CasillaDestinoFinal::CasillaDestinoFinal(float x, float y, char color):Casilla(x,y,color)
+CasillaDestinoFinal::CasillaDestinoFinal(float x, float y, char color):Casilla(x,y)
 {
     this->disponible = true;
     this->color = color;
 }
-CasillaDestinoFinal::~CasillaDestinoFinal() {}

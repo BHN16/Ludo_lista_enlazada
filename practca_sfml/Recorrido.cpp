@@ -1,6 +1,6 @@
 #include "Recorrido.h"
 
-Recorrido::Recorrido() {}
+Recorrido::Recorrido() {retroceso = false;}
 
 Nodo* Recorrido::calcularRecorrido(Ficha* ficha, int mov) {
     Nodo* punteroAuxiliar = nullptr;
@@ -12,6 +12,7 @@ Nodo* Recorrido::calcularRecorrido(Ficha* ficha, int mov) {
 }
 
 void Recorrido::mover(Ficha* ficha, int mov){
+    char c = ficha->getColor();
     Nodo* NN = calcularRecorrido(ficha,mov);
     if(NN->getCasilla()->getDisponible()){
         ficha->getPosicion()->getCasilla()->disponibleSwitch();
@@ -21,9 +22,8 @@ void Recorrido::mover(Ficha* ficha, int mov){
         NN->setF(ficha);
     }else{
         if(NN->getF()->getColor()==ficha->getColor()){
-            cout<<"Casilla ocupada\n";
+            //std::cout<<"Casilla ocupada\n";
         } else {
-            // Falta probar pero asumo que funciona
             NN->getF()->getPosInicial()->getCasilla()->disponibleSwitch();
             NN->getF()->setPosicion(NN->getF()->getPosInicial());
             ficha->getPosicion()->getCasilla()->disponibleSwitch();
@@ -33,6 +33,8 @@ void Recorrido::mover(Ficha* ficha, int mov){
             NN->setF(ficha);
         }
     }
+    ficha->setColor(c);
+
 }
 
 Recorrido::~Recorrido() {}
